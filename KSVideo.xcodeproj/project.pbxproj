@@ -78,6 +78,10 @@
 		A25344DC1F308DDD00967891 /* KSDefineUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDefineUtils.m; sourceTree = "<group>"; };
 		A25344DE1F308E6100967891 /* KSDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDeviceUtils.h; sourceTree = "<group>"; };
 		A25344DF1F308E6100967891 /* KSDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDeviceUtils.m; sourceTree = "<group>"; };
+		A27E43721F309493005DD2CB /* KSCodeMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCodeMacro.h; sourceTree = "<group>"; };
+		A27E43731F309493005DD2CB /* KSKeyMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSKeyMacro.h; sourceTree = "<group>"; };
+		A27E43741F309493005DD2CB /* KSNotifiationMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSNotifiationMacro.h; sourceTree = "<group>"; };
+		A27E43751F309493005DD2CB /* KSToolsMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSToolsMacro.h; sourceTree = "<group>"; };
 		A2CF794B1F2F2E4F00F32153 /* KSVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CF794F1F2F2E4F00F32153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2CF79511F2F2E4F00F32153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -124,6 +128,7 @@
 		A253446D1F306EB400967891 /* KSCommon */ = {
 			isa = PBXGroup;
 			children = (
+				A27E43711F309471005DD2CB /* Macro */,
 				A25344D71F308B2800967891 /* Utils */,
 				A25344C71F3075EB00967891 /* Category */,
 				A253449A1F3075A800967891 /* TPOS */,
@@ -254,6 +259,17 @@
 				A25344D91F308B4400967891 /* KSLocalTextUtils.m */,
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		A27E43711F309471005DD2CB /* Macro */ = {
+			isa = PBXGroup;
+			children = (
+				A27E43721F309493005DD2CB /* KSCodeMacro.h */,
+				A27E43731F309493005DD2CB /* KSKeyMacro.h */,
+				A27E43741F309493005DD2CB /* KSNotifiationMacro.h */,
+				A27E43751F309493005DD2CB /* KSToolsMacro.h */,
+			);
+			path = Macro;
 			sourceTree = "<group>";
 		};
 		A2CF79421F2F2E4F00F32153 = {
