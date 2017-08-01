@@ -14,6 +14,7 @@
 #include <net/if.h>
 #include <net/if_dl.h>
 #import <AdSupport/AdSupport.h>
+#import "KSLocalTextUtils.h"
 #import "OpenUDID.h"
 #import <UIKit/UIKit.h>
 #import <CoreTelephony/CTCarrier.h>
@@ -165,14 +166,6 @@
         [dicItem setObject:@"iphone" forKey:@"platform"];
     }
     
-#pragma mark -- 如果是Relase包，说明是上架的，那么就传1，然后后端区分token
-    
-#ifdef DEBUG
-    [dicItem setObject:@"0" forKey:@"iosauted"];
-#else
-    [dicItem setObject:@"1" forKey:@"iosauted"];
-#endif
-    
     //shortVersion(外部版本)
     NSString *appVersion = [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"];
     [dicItem setObject:appVersion forKey:@"version"];
@@ -187,8 +180,9 @@
     
     [dicItem setObject:[OpenUDID value] forKey:@"open_id"];
     [dicItem setObject:@"com.koudai.instashop" forKey:@"appid"];
+    
     //手机语言
-    NSString *lan = [YSLocalTextConstant currentLanguage];
+    NSString *lan = [KSLocalTextUtils currentLanguage];
     [dicItem setObject:lan forKey:@"ACCEPT-LANGUAGE"];
     
     return dicItem;

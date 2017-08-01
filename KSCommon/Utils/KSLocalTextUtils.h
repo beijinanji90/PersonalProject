@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-extern NSString *YSLocalString(NSString *key,NSString *defaultStr);
+extern NSString *KSLocalString(NSString *key,NSString *defaultStr);
 
 @interface KSLocalTextUtils : NSObject
 
