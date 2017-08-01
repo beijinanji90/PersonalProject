@@ -26,8 +26,8 @@
 		A25344D31F30770000967891 /* NSString+KS.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344D21F30770000967891 /* NSString+KS.m */; };
 		A25344D61F3089F100967891 /* UIImage+KS.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344D51F3089F100967891 /* UIImage+KS.m */; };
 		A25344DA1F308B4400967891 /* KSLocalTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344D91F308B4400967891 /* KSLocalTextUtils.m */; };
-		A25344DD1F308DDD00967891 /* KSDefineConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344DC1F308DDD00967891 /* KSDefineConstant.m */; };
-		A25344E01F308E6100967891 /* KSDeviceConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344DF1F308E6100967891 /* KSDeviceConstant.m */; };
+		A25344DD1F308DDD00967891 /* KSDefineUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344DC1F308DDD00967891 /* KSDefineUtils.m */; };
+		A25344E01F308E6100967891 /* KSDeviceUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A25344DF1F308E6100967891 /* KSDeviceUtils.m */; };
 		A2CF79501F2F2E4F00F32153 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF794F1F2F2E4F00F32153 /* main.m */; };
 		A2CF79531F2F2E4F00F32153 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79521F2F2E4F00F32153 /* AppDelegate.m */; };
 		A2CF79561F2F2E4F00F32153 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2CF79551F2F2E4F00F32153 /* ViewController.m */; };
@@ -74,10 +74,10 @@
 		A25344D51F3089F100967891 /* UIImage+KS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+KS.m"; sourceTree = "<group>"; };
 		A25344D81F308B4400967891 /* KSLocalTextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSLocalTextUtils.h; sourceTree = "<group>"; };
 		A25344D91F308B4400967891 /* KSLocalTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSLocalTextUtils.m; sourceTree = "<group>"; };
-		A25344DB1F308DDD00967891 /* KSDefineConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDefineConstant.h; sourceTree = "<group>"; };
-		A25344DC1F308DDD00967891 /* KSDefineConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDefineConstant.m; sourceTree = "<group>"; };
-		A25344DE1F308E6100967891 /* KSDeviceConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDeviceConstant.h; sourceTree = "<group>"; };
-		A25344DF1F308E6100967891 /* KSDeviceConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDeviceConstant.m; sourceTree = "<group>"; };
+		A25344DB1F308DDD00967891 /* KSDefineUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDefineUtils.h; sourceTree = "<group>"; };
+		A25344DC1F308DDD00967891 /* KSDefineUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDefineUtils.m; sourceTree = "<group>"; };
+		A25344DE1F308E6100967891 /* KSDeviceUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSDeviceUtils.h; sourceTree = "<group>"; };
+		A25344DF1F308E6100967891 /* KSDeviceUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSDeviceUtils.m; sourceTree = "<group>"; };
 		A2CF794B1F2F2E4F00F32153 /* KSVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2CF794F1F2F2E4F00F32153 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A2CF79511F2F2E4F00F32153 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -246,10 +246,10 @@
 		A25344D71F308B2800967891 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				A25344DE1F308E6100967891 /* KSDeviceConstant.h */,
-				A25344DF1F308E6100967891 /* KSDeviceConstant.m */,
-				A25344DB1F308DDD00967891 /* KSDefineConstant.h */,
-				A25344DC1F308DDD00967891 /* KSDefineConstant.m */,
+				A25344DE1F308E6100967891 /* KSDeviceUtils.h */,
+				A25344DF1F308E6100967891 /* KSDeviceUtils.m */,
+				A25344DB1F308DDD00967891 /* KSDefineUtils.h */,
+				A25344DC1F308DDD00967891 /* KSDefineUtils.m */,
 				A25344D81F308B4400967891 /* KSLocalTextUtils.h */,
 				A25344D91F308B4400967891 /* KSLocalTextUtils.m */,
 			);
@@ -435,7 +435,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A25344BF1F3075A800967891 /* HWWeakTimer.m in Sources */,
-				A25344E01F308E6100967891 /* KSDeviceConstant.m in Sources */,
+				A25344E01F308E6100967891 /* KSDeviceUtils.m in Sources */,
 				A25344BC1F3075A800967891 /* NSString+FontAwesome.m in Sources */,
 				A2CF79561F2F2E4F00F32153 /* ViewController.m in Sources */,
 				A25344BB1F3075A800967891 /* FAImageView.m in Sources */,
@@ -447,7 +447,7 @@
 				A25344C01F3075A800967891 /* MarqueeLabel.m in Sources */,
 				A25344C31F3075A800967891 /* UIActionSheet+Blocks.m in Sources */,
 				A2CF79501F2F2E4F00F32153 /* main.m in Sources */,
-				A25344DD1F308DDD00967891 /* KSDefineConstant.m in Sources */,
+				A25344DD1F308DDD00967891 /* KSDefineUtils.m in Sources */,
 				A25344C21F3075A800967891 /* RMUniversalAlert.m in Sources */,
 				A25344CA1F30760B00967891 /* ALAsset+KS.m in Sources */,
 				A25344DA1F308B4400967891 /* KSLocalTextUtils.m in Sources */,

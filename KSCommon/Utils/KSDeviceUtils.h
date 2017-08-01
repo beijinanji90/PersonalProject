@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface KSDeviceConstant : NSObject
+@interface KSDeviceUtils : NSObject
 
 + (NSMutableDictionary *)deviceInfo;
 

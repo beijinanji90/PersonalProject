@@ -6,7 +6,7 @@
 //  Copyright © 2015年 weidian. All rights reserved.
 //
 
-#import "KSDeviceConstant.h"
+#import "KSDeviceUtils.h"
 #import "OpenUDID.h"
 #import "Reachability.h"
 #include <sys/socket.h>
@@ -20,7 +20,7 @@
 #import <CoreTelephony/CTCarrier.h>
 #import <CoreTelephony/CTTelephonyNetworkInfo.h>
 
-@implementation KSDeviceConstant
+@implementation KSDeviceUtils
 
 //获取运行商的名称
 + (NSString *)carrierInfo

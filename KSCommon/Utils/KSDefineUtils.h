@@ -15,6 +15,6 @@ extern NSArray *EncodeArrayFromDic(NSDictionary *dic, NSString *key);
 extern NSArray *EncodeArrayFromDicUsingParseBlock(NSDictionary *dic, NSString *key, id(^parseBlock)(NSDictionary *innerDic));
 extern NSString *EncodePriceStringFromDic(NSDictionary *dic, NSString *key);
 
-@interface KSDefineConstant : NSObject
+@interface KSDefineUtils : NSObject
 
 @end

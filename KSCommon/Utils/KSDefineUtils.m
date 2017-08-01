@@ -6,7 +6,7 @@
 //  Copyright © 2015年 weidian. All rights reserved.
 //
 
-#import "KSDefineConstant.h"
+#import "KSDefineUtils.h"
 #import "NSString+KS.h"
 
 NSString *EncodeStringFromDic(NSDictionary *dic, NSString *key)
@@ -104,6 +104,6 @@ NSString *EncodePriceStringFromDic(NSDictionary *dic, NSString *key)
     return priceString;
 }
 
-@implementation KSDefineConstant
+@implementation KSDefineUtils
 
 @end
